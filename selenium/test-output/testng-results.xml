@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="7" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="94" started-at="2018-12-07T16:43:46Z" finished-at="2018-12-07T16:43:46Z">
+    <groups>
+      <group name="1">
+        <method signature="Me1.bb()[pri:0, instance:tngpac.Me1@1d057a39]" name="bb" class="tngpac.Me1"/>
+      </group> <!-- 1 -->
+      <group name="2">
+        <method signature="Me1.b()[pri:0, instance:tngpac.Me1@1d057a39]" name="b" class="tngpac.Me1"/>
+      </group> <!-- 2 -->
+    </groups>
+    <test name="Default test" duration-ms="94" started-at="2018-12-07T16:43:46Z" finished-at="2018-12-07T16:43:46Z">
+      <class name="tngpac.Me1">
+        <test-method status="PASS" signature="a()[pri:0, instance:tngpac.Me1@1d057a39]" name="a" duration-ms="17" started-at="2018-12-07T16:43:46Z" finished-at="2018-12-07T16:43:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a -->
+        <test-method status="PASS" signature="aa()[pri:0, instance:tngpac.Me1@1d057a39]" name="aa" duration-ms="2" started-at="2018-12-07T16:43:46Z" finished-at="2018-12-07T16:43:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aa -->
+        <test-method status="PASS" signature="b()[pri:0, instance:tngpac.Me1@1d057a39]" name="b" duration-ms="4" started-at="2018-12-07T16:43:46Z" finished-at="2018-12-07T16:43:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b -->
+        <test-method status="PASS" signature="bb()[pri:0, instance:tngpac.Me1@1d057a39]" name="bb" duration-ms="3" started-at="2018-12-07T16:43:46Z" finished-at="2018-12-07T16:43:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bb -->
+        <test-method status="PASS" signature="bbb()[pri:0, instance:tngpac.Me1@1d057a39]" name="bbb" duration-ms="1" depends-on-groups="1, 2" started-at="2018-12-07T16:43:46Z" finished-at="2018-12-07T16:43:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bbb -->
+        <test-method status="PASS" signature="aaa()[pri:2, instance:tngpac.Me1@1d057a39]" name="aaa" duration-ms="2" started-at="2018-12-07T16:43:46Z" depends-on-methods="tngpac.Me1.aa, tngpac.Me1.a" finished-at="2018-12-07T16:43:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aaa -->
+      </class> <!-- tngpac.Me1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
